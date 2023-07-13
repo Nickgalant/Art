@@ -36,3 +36,99 @@ h1 {
 .btn-primary {
     background-color: red;
 }
+
+.container {
+    background-color: #999;
+}
+
+.container-fluid {
+    background-color: #888;
+}
+
+/* Container Breakpoint */
+.container-sm {
+    margin-bottom: 30px;
+    border: 2px solid blue;
+}
+
+.container-md {
+    margin-bottom: 30px;
+    border: 2px solid crimson;
+}
+
+.container-lg {
+    margin-bottom: 30px;
+    border: 2px solid chocolate;
+}
+
+/* Grid */
+
+.container {
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.row {
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col,
+.col-4,
+.col-3,
+.col-2,
+.col-1,
+.col-11,
+.col-6 {
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+}
+
+#largura-limitada {
+    width: 500px;
+}
+
+/* Alinhamento vertical */
+
+.vertical {
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.col-6,
+.col-3,
+.col-4,
+.col-md-3 {
+    height: 50px;
+}
+
+#offset .col-md-3 {
+    border: 2px dashed red;
+}
+
+#offset {
+    height: auto;
+}
+
+/* gutter */
+
+#gutter .row {
+    height: 200px;
+}
+
+#gutter .col-6 {
+    margin: auto;
+    height: 50px;
+}
+
+.row p {
+    border: 2px solid green;
+}
